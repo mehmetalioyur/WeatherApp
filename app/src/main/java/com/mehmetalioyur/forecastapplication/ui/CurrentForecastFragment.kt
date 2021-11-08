@@ -17,7 +17,6 @@ import com.mehmetalioyur.forecastapplication.util.Resource
 import com.mehmetalioyur.forecastapplication.viewmodel.ForecastViewModel
 import com.mehmetalioyur.forecastapplication.util.KelvinToCelsius
 import com.mehmetalioyur.forecastapplication.util.TransformDateAndTime
-import com.mehmetalioyur.forecastapplication.util.TranslateDescription
 
 
 class CurrentForecastFragment : Fragment() {
@@ -143,12 +142,12 @@ class CurrentForecastFragment : Fragment() {
                     .into(binding.forecastPng   )
 
 
-            binding.status.text = TranslateDescription().weatherTranslate()[it.weather[0].main]
+            binding.status.text =  it.weather[0].description.capitalize()
             binding.groundLevel.text = "${it.main.grnd_level}"
             binding.sunrise.text = TransformDateAndTime().transformTime(it.sys.sunrise)
             binding.sunset.text = TransformDateAndTime().transformTime(it.sys.sunset)
             binding.wind.text = "${it.wind.speed} km"
-            binding.pressure.text = "${it.main.pressure}"
+            binding.pressure.text = "${it.main.pressure}."
             binding.humidity.text = "% ${it.main.humidity}"
             }
         }
