@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Forecast Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="location_error">Konum bilgileriniz alınamadı. \nLütfen tekrar deneyiniz</string>
+    <string name = "try_again">Tekrar Dene </string>
+    <string name="location_loading">Konumunuz Alınıyor…</string>
+</resources>

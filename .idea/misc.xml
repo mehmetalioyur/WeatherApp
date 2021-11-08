@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mehme/Projelerim/ForecastApplication/app/src/main/res/layout/activity_main.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/mehme/Projelerim/ForecastApplication/app/src/main/res/layout/fragment_current_forecast.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/mehme/Projelerim/ForecastApplication/app/src/main/res/layout/fragment_settings.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/drawable/background.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/layout/fragment_current_forecast.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/layout/fragment_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/layout/fragment_weekly_forecast.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/mehme/Projelerim/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
