@@ -15,7 +15,7 @@ Bu projemde [OpenWeather]() API servisini kullanarak kullanıcının konumuna en
 
 
 # Uygulama Görselleri
-<img src="https://user-images.githubusercontent.com/77691403/141243942-7e0217eb-97e0-46a2-8eb7-d3f6a7c7ce49.jpg" width="200"> <img src="https://user-images.githubusercontent.com/77691403/141243950-a57fd536-6d10-4f56-b86b-7c6056b1ec01.jpg" width="200"> <img src="https://user-images.githubusercontent.com/77691403/141243955-55c284f9-a1a0-460a-8f04-877e3d7a7917.jpg" width="200"> 
+<img src="https://user-images.githubusercontent.com/77691403/141253111-46a6821e-3eb0-49b1-9b4a-891012b5b60b.jpg" width="200"> <img src="https://user-images.githubusercontent.com/77691403/141243950-a57fd536-6d10-4f56-b86b-7c6056b1ec01.jpg" width="200"> <img src="https://user-images.githubusercontent.com/77691403/141243955-55c284f9-a1a0-460a-8f04-877e3d7a7917.jpg" width="200"> 
 
 # Uygulama İndirme Linki
 
