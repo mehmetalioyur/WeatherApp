@@ -143,11 +143,11 @@ class CurrentForecastFragment : Fragment() {
 
 
             binding.status.text =  it.weather[0].description.capitalize()
-            binding.groundLevel.text = "${it.main.grnd_level}"
+            binding.groundLevel.text = "${it.main.grnd_level} m"
             binding.sunrise.text = TransformDateAndTime().transformTime(it.sys.sunrise)
             binding.sunset.text = TransformDateAndTime().transformTime(it.sys.sunset)
             binding.wind.text = "${it.wind.speed} km/s"
-            binding.pressure.text = "${it.main.pressure}."
+            binding.pressure.text = "${it.main.pressure} hPa"
             binding.humidity.text = "% ${it.main.humidity}"
             }
         }
