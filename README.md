@@ -4,7 +4,7 @@ Bu projemde [OpenWeather]() API servisini kullanarak kullanıcının konumuna en
 
 # Uygulamada Kullandığım Kütüphane ve Yapılar
 
--MVVM Mimari yapısı
+-MVVM Mimari yapısı</br>
 -Kullanıcının konumunu almak için *Google Location Services*</br>
 -Hava durumu verileri sorgusu için *Retrofit*</br>
 -Asenkron işlemler için *Kotlin-Coroutines*</br>
