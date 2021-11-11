@@ -6,4 +6,23 @@
     <string name="location_error">Konum bilgileriniz alınamadı. \nLütfen tekrar deneyiniz</string>
     <string name = "try_again">Tekrar Dene </string>
     <string name="location_loading">Konumunuz Alınıyor…</string>
+    <string name="random_city">Denizli</string>
+    <string name="temp_text">En Düşük : 20°C</string>
+
+    <string name="temp_text_big">20.5°C</string>
+    <string name="last_update_time">Son Güncellenme Zamanı : 27 Eylül 2022 15:13</string>
+    <string name="clear_sky">Clear Sky</string>
+    <string name="pressure">Basınç</string>
+    <string name="random_time">06:40 AM</string>
+    <string name="photo_of_weather">Hava Durumu Görseli</string>
+    <string name="sunrise_text">Güneşin Doğma Saati</string>
+    <string name="sunset_text">Gün Batımı</string>
+
+    <string name="humidity">Nem</string>
+    <string name="sunrise">Gün Doğumu</string>
+
+    <string name="wind">Rüzgar</string>
+    <string name="ground_level">Rakım</string>
+    <string name="random_meter">125 m</string>
+    <string name="sunset">Güneşin Batış Zamanı</string>
 </resources>

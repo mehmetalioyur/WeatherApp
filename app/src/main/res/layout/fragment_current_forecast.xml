@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
-                    android:text="Denizli"
+                    android:text="@string/random_city"
                     android:textSize="26sp"
                     android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
-                    android:text="En Düşük : 20°C" />
+                    android:text="@string/temp_text" />
 
 
                 <TextView
@@ -71,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="2dp"
-                    android:text="En Yüksek : 20°C" />
+                    android:text="@string/temp_text" />
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -84,7 +84,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-thin"
-                android:text="20.5°C"
+                android:text="@string/temp_text_big"
                 android:textAlignment="center"
                 android:textSize="50sp" />
 
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/firstColumn"
             android:background="#3CF1EBF1"
-            android:text="Son Güncellenme Zamanı : 27 Eylül 2022  15:13"
+            android:text="@string/last_update_time"
             android:textAlignment="center" />
 
         <LinearLayout
@@ -117,7 +117,8 @@
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 android:layout_margin="5dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/photo_of_weather" />
 
             <TextView
                 android:id="@+id/status"
@@ -126,7 +127,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="5dp"
                 android:background="#3CF1EBF1"
-                android:text="Clear Sky"
+                android:text="@string/clear_sky"
                 android:textAlignment="center"
                 android:textSize="36sp" />
 
@@ -146,7 +147,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:baselineAligned="false">
 
 
                 <LinearLayout
@@ -163,20 +165,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/sunrise"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/sunrise_text" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gün Doğumu"
+                        android:text="@string/sunrise"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/sunrise"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+                        android:text="@string/random_time"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -195,20 +198,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/sunset"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/sunset" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gün Batımı"
+                        android:text="@string/sunset_text"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/sunset"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+                        android:text="@string/random_time"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -227,20 +231,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/wind"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/wind" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rüzgar"
+                        android:text="@string/wind"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/wind"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+
                         android:textSize="14sp" />
                 </LinearLayout>
             </LinearLayout>
@@ -250,7 +255,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="3"
+                android:baselineAligned="false">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -266,20 +272,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/pressure"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/pressure" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Basınç"
+                        android:text="@string/pressure"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/pressure"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+                        android:text="@string/random_time"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -298,20 +305,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/humidity"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/humidity" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Nem"
+                        android:text="@string/humidity"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/humidity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="06:40 AM"
+                        android:text="@string/random_time"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -330,20 +338,21 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:src="@drawable/info"
-                        app:tint="#FFFFFF" />
+                        app:tint="#FFFFFF"
+                        android:contentDescription="@string/ground_level" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rakım"
+                        android:text="@string/ground_level"
                         android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/groundLevel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="125 m"
+                        android:text="@string/random_meter"
                         android:textSize="14sp" />
                 </LinearLayout>
             </LinearLayout>
