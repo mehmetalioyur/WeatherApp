@@ -1,6 +1,6 @@
 # ForecastApp
 
-Bu projemde [OpenWeather]() API servisini kullanarak kullanıcının konumuna en yakın hava durumu verilerinin kullanıcıya gösterilmesini amaçladım.
+Bu projemde [OpenWeather](https://openweathermap.org/) API servisini kullanarak kullanıcının konumuna en yakın hava durumu verilerinin kullanıcıya gösterilmesini amaçladım.
 
 # Uygulamada Kullandığım Kütüphane ve Yapılar
 
